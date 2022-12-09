@@ -1,0 +1,13 @@
+@import '../../Style/Common.scss';
+.carouselSlider{
+    margin-top: 50px;
+    .sliderWrapper{
+        .hero_image{
+            height: 500px;
+            width: 100%;
+        }
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: none;
+    }
+}

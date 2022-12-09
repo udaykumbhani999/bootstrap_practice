@@ -1,0 +1,52 @@
+@import "./Variable.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville-Bold';
+    src: url(../Assets/Fonts/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+    font-family: 'LibreBaskerville-Italic';
+    src: url(../Assets/Fonts/LibreBaskerville-Italic.ttf);
+}
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url(../Assets/Fonts/LibreBaskerville-Regular.ttf);
+}
+
+.btn{
+    font-family: $Lib-Regular;
+}
+
+.textwhite{
+    color: $secondary-color;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+h5{
+    color: $secondary-color;
+    font-size: 40px;
+    line-height: 55px;
+}
