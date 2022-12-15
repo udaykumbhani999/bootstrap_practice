@@ -50,3 +50,15 @@ h5{
     font-size: 40px;
     line-height: 55px;
 }
+
+.Textblack{
+    color: $primery-color;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-family: $Lib-Regular;
+    @include md{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
