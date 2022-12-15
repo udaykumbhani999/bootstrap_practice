@@ -1,0 +1,39 @@
+@import '../../Style/Common.scss';
+
+
+.CardBox{
+    margin-top: 50px;
+    .CardWrapper{
+       display: grid;
+       grid-template-rows: auto;
+       grid-template-columns: auto auto auto;
+       gap: 10px;
+       @include md{
+        grid-template-columns: auto auto;
+       }
+       @include sm{
+        grid-template-columns: auto;
+       }
+    }
+    .card{  
+        .background{
+            min-height: 200px;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             svg{
+                width: 100px;
+                height: 100px;
+             }
+        }  
+        .card-text{
+            font-family: $Lib-Bold;
+            font-size: 22px;
+            line-height: 30px;
+            color: $primery-color;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import '../../Style/Common.scss';
+
+.columns{
+    margin: 50px 0px;
+    .row{
+        margin: 0;
+        row-gap: 5px;
+        .col-12{
+            padding: 10px 0px;
+        }
+    }
+}
